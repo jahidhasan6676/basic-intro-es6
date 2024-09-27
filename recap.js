@@ -232,3 +232,36 @@
 //     const value = glass[key]
 //     console.log(key, value)
 // }
+
+
+// Again reply module work---->
+
+// const a = 10;
+// const b = 10;
+
+// const sum = 'the number of sum is:' + (a + b);
+// const result = 'the sum of ' + a + ' and ' + b + ' is ' + (a + b);
+// const result = `the sum of ${a} and ${b} is ${a + b}`
+// console.log(result)
+
+// const sentence = `Hello jahid 
+// how are you 
+// tmake paile marbo bujle`;
+// console.log(sentence)
+
+// const arraw = () => num * 3;
+// console.log(arraw(5))
+
+// function expression-->
+// const numbers = function(a, b){
+//     return a / b;
+// }
+// console.log(numbers(50, 5))
+
+// const getBook = info => info.book;
+// const details = {name: 'jahid', year: 2020, book: 'bangla'};
+// const book = getBook(details);
+// console.log(book)
+
+// const getPI = () => Math.random;
+// console.log(getPI())
