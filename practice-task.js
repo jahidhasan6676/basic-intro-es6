@@ -12,37 +12,68 @@
 // const arrow = (x, y=5) => x + y;
 // console.log(arrow(20))
 
-// task-2---------->
-    // function friendsEvenName (friends){
-    //     let evenArray = [];
-    //     for(let i = 0; i < friends.length; i++){
-    //         if(friends[i].length % 2 === 0){
-    //             evenArray.push(friends[i])
-    //         }
-    //     }
-    //     return evenArray;
-    // }
-    // const array = ['jahid', 'kamrul', 'arif', 'hasan', 'mehedi', 'tasmim'];
-    // console.log(friendsEvenName(array));
+// practice-task-3-------------->
 
-    
-    // task-3------------>
-
-    
-
-// function averageNumber(number){
-//     let sum = 0;
-//     let length = number.length;
-    
-//     for(let arr of number){
-   
-//         let square = arr * arr;
-//         sum = sum + square;
-//          average = sum / length;
-       
-//     }
-//     return average;
+// const sum = (x, y, z) => {
+//     const square = x * x + y * y + z * z;
+//     const average = square / sum.length;
+//     console.log(average);
 // }
-// const array = [3, 5, 6, 8, 9, 4];
+// const total = sum(5, 5, 5);
+// console.log(total)
 
-// console.log(averageNumber(array))
+
+// practice-task-4-------------->
+
+// let arr = [];
+// const maxNumber = (num1, num2) => {
+//    let n1 = num1;
+//    let n2 = num2;
+//     arr.push(n1, n2)
+//    console.log(arr)
+
+    
+// }
+
+// const array = maxNumber([4, 6, 7, 8], [2, 4, 8, 9]);
+
+
+// let count = 0;
+
+// function counter(){
+//     let count = 0;
+//    return function increment(){
+//         count++;
+//         return count;
+        
+//     }
+// }
+
+// const result1 = counter();
+// const result2 = counter();
+
+// console.log(result1(), result1(), result1())
+// console.log(result2(), result2(), result2(), result2())
+// // console.log(counter())
+// // console.log(counter())
+// // console.log(counter())
+
+
+// callback function---------->
+
+// function sum(number1, number2, callback){
+//  return callback = number1 + number2;
+  
+// }
+// function callback(){
+    
+// }
+// const total = sum(5, 5);
+// console.log(total)
+
+
+
+
+  
+
+ 
